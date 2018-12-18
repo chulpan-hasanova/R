@@ -12,6 +12,6 @@ public class DepositTest2 {
 		DepositCalculator test = new DepositCalculator();
 		
 		//Test method
-		assertEquals(15600, test.Deposit(15000.0 , 4.0, 1),0.1);
+		assertEquals(15730.4, test.Deposit(14000.0 , 6.0, 2),0.1);
 	}
 }
